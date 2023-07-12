@@ -1,0 +1,67 @@
+[
+  { "name": "ramesh", "password": "password3", "profession": "clerk", "id": 3 },
+  {
+    "id": "ecb92357ba38a",
+    "email": "rudenkostas2@gmail.com",
+    "name": "Stanislav",
+    "surname": "Rudenko",
+    "password": "$2a$07$wRk3UBsrCieewxNKFiGJbeAFYCeMp0fcUECaN4uDXqu9eNcP4BfwW",
+    "role": "boss",
+    "subordinateIdList": ["1f4a352afdaff", "1f4a352afdaff"],
+    "bossId": "0"
+  },
+  {
+    "id": "1f4a352afdaff",
+    "email": "stevengerrard@gmail.com",
+    "name": "Steven",
+    "surname": "Gerrard",
+    "password": "$2a$07$lXfL4lGrqaaFaQ/F3tpB8uvbF/Uud2cHkLcNfdSH6SKCLVOMRXI.C",
+    "role": "worker",
+    "bossId": "ecb92357ba38a"
+  },
+  {
+    "id": "8d4501d32d14a",
+    "email": "luissuarez@gmail.com",
+    "name": "Luis",
+    "surname": "Suarez",
+    "password": "$2a$07$J0nODKjGNKyULPTYHCrycuHAOAS4jZeSQHJQDB/euEPp2kZ5MBBtG",
+    "role": "admin"
+  },
+  {
+    "id": "553ffb49f0fba",
+    "email": "lucasleiva@gmail.com",
+    "name": "Lucas",
+    "surname": "Leiva",
+    "password": "$2a$07$PwAIQo1ExJ2MwsHVLmVEFOB6PQKTLeuKso/dWAkhyiNW5532gtJP2",
+    "role": "boss",
+    "subordinateIdList": ["dd8f882b41c3a", "5544ffb49f0fba"]
+  },
+  {
+    "id": "5544ffb49f0fba",
+    "email": "firmino@gmail.com",
+    "name": "Roberto",
+    "surname": "Firmino",
+    "password": "$2a$07$PwAIQ1ExJ2MwsHVLmVEFOB6PQKTLeuKso/dWAkhyiNW5532gtJP2",
+    "role": "boss",
+    "bossId": "553ffb49f0fba",
+    "subordinateIdList": ["dd7f882b41c3a"]
+  },
+  {
+    "id": "dd7f882b41c3a",
+    "email": "coutinho@gmail.com",
+    "name": "Fillipe",
+    "surname": "Coutinho",
+    "password": "$a$07$MEKuTZomm1VJXsUlmTNLQupFEgQwaMbaP9t.qcOabVTlsuCzY6Rty",
+    "role": "worker",
+    "bossId": "5544ffb49f0fba"
+  },
+  {
+    "id": "dd8f882b41c3a",
+    "email": "martin@gmail.com",
+    "name": "Martin",
+    "surname": "Shrktel",
+    "password": "$2a$07$MEKuTZomm1VJXsUlmTNLQupFEgQwaMbaP9t.qcOabVTlsuCzY6Rty",
+    "role": "worker",
+    "bossId": "553ffb49f0fba"
+  }
+]
